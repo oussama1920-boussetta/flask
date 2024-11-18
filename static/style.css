@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    /* Couleur de fond */
+    color: #333;
+    /* Couleur du texte */
+}
+
+.container {
+    max-width: 600px;
+    /* Largeur maximale du conteneur */
+    margin: 50px auto;
+    /* Centrage vertical et horizontal */
+    padding: 20px;
+    /* Espacement intérieur */
+    background-color: #ffffff;
+    /* Couleur de fond du conteneur */
+    border-radius: 8px;
+    /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Ombre portée */
+}
+
+h1 {
+    text-align: center;
+    /* Centrage du titre */
+    margin-bottom: 20px;
+    /* Espacement en bas du titre */
+    color: #007bff;
+    /* Couleur du titre */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* Espacement entre les groupes de formulaire */
+}
+
+label {
+    display: block;
+    /* Affichage en bloc pour les labels */
+    margin-bottom: 5px;
+    /* Espacement en bas des labels */
+    font-weight: bold;
+    /* Texte en gras pour les labels */
+}
+
+select,
+input[type="date"],
+.btn {
+    width: 100%;
+    /* Largeur complète des éléments */
+    padding: 12px;
+    /* Espacement intérieur plus grand pour le confort */
+    border-radius: 5px;
+    /* Coins arrondis pour les champs de saisie et boutons */
+    border: 1px solid #ccc;
+    /* Bordure grise claire par défaut */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Transition douce pour les effets de focus */
+}
+
+select:focus,
+input[type="date"]:focus {
+    border-color: #007bff;
+    /* Bordure bleue au focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Ombre portée au focus pour mettre en valeur le champ actif */
+}
+
+.btn {
+    background-color: #007bff;
+    /* Couleur de fond du bouton */
+    color: white;
+    /* Couleur du texte du bouton */
+    border: none;
+    /* Pas de bordure par défaut */
+    cursor: pointer;
+    /* Curseur pointeur au survol */
+    font-weight: bold;
+    /* Texte en gras pour les boutons */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Couleur du bouton au survol */
+}
+
+.result {
+    margin-top: 20px;
+    /* Espacement au-dessus des résultats */
+    padding: 15px;
+    /* Espacement intérieur pour les résultats */
+    border-radius: 5px;
+    /* Coins arrondis pour le bloc de résultats */
+    background-color: #e9ecef;
+    /* Couleur de fond pour le bloc de résultats */
+}
